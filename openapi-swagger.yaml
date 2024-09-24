@@ -28,6 +28,16 @@
       url: http://swagger.io
     
   
+  x-kong-key-auth: 
+    name: x-kong-key-auth
+    enabled: true
+    config: 
+  
+  x-kong-rate-limiting: 
+    name: x-kong-rate-limiting
+    enabled: true
+    config: 
+  
   paths: 
     /ws/zip-code/json: 
       get: 
